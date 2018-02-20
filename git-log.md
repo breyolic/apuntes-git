@@ -13,3 +13,6 @@ Muestra el historial con el formato que indicamos.
 
 Las vanderas del comando `git log` se pueden usar jutnas según se convenga, por ejemplo:
 `git log --after="2016-04-07 12:00:00"--before="2016-04-07 12:30:00"`
+
+`git log --oneline`
+Este comando nos muestra el historial de una sola linea por commit
