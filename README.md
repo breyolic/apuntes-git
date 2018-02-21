@@ -18,6 +18,3 @@ git config --global user.email "example@gmail.com"
 git config --global core.editor vim
 git config --list
 ```
-
-## Aportes desde otra cuenta
-Este texto fue aportado desde otra cuenta
