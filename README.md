@@ -18,3 +18,5 @@ git config --global user.email "example@gmail.com"
 git config --global core.editor vim
 git config --list
 ```
+
+Esta línea se agregó para poder hacer un commit.
