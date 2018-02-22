@@ -20,4 +20,4 @@ Podemos configurar un mismo proyecto para sincronizar cambios con varios reposit
 3. Abrir la llave pública con el comando `cat /c/llaves-ssh/github_rsa.pub` para luego copiarlo en nuestro repositorio.
 4. Una vez configurada la llave, hacer la conexión vía SSH en nuestro cliente. Ejemplo `git remote add githubssh git@github.com:breyolic/apuntes-git.git`
 5. Iniciamos ssh-agent en background ejecutando el comando `eval "$(ssh-agent -s)"`(resultado `Agent pid xxxxx`) y a continuación agregamos la llave ssh generada a ssh-agent ejecutando el comando `ssh-add /c/llaves-ssh/github_rsa` (resultado `Identity added: /c/llaves-ssh/github_rsa (/c/llaves-ssh/github_rsa)`).
-6. Ahora ya podemos hacer `git push` sin problemas.
+6. Ahora ya podemos hacer `git push`y `git pull` sin problemas.
